@@ -1,0 +1,28 @@
+{
+  "name": "expert-institute-project",
+  "version": "1.0.0",
+  "description": "A Node.JS API library using Express",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Tennie <tennie.jacobson@outlook.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "express-rate-limit": "^6.3.0",
+    "lodash": "^4.17.21",
+    "lowdb": "^3.0.0",
+    "morgan": "^1.10.0",
+    "node-fetch": "^3.2.3",
+    "swagger-jsdoc": "^6.1.0",
+    "swagger-ui-express": "^4.3.0",
+    "uuid": "^8.3.2",
+    "xss-clean": "^0.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
